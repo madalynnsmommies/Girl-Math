@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Girl Math: Financial Literacy for Girls</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff0f5;
+      color: #333;
+    }
+    header {
+      background: #ff69b4;
+      color: white;
+      padding: 2em;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    nav {
+      background: #ffc0cb;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      margin: 0 1em;
+      font-weight: bold;
+    }
+    section {
+      padding: 2em;
+    }
+    .four-s {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2em;
+      justify-content: center;
+    }
+    .card {
+      background: white;
+      border: 2px solid #ffb6c1;
+      border-radius: 10px;
+      padding: 1.5em;
+      width: 250px;
+      box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    }
+    .study-plan li {
+      margin-bottom: 0.5em;
+    }
+    form {
+      background: white;
+      padding: 2em;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+      border: 2px solid #ffb6c1;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.7em;
+      margin-top: 0.5em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background: #ff69b4;
+      color: white;
+      border: none;
+      padding: 0.8em 1.5em;
+      font-size: 1em;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background: #ffc0cb;
+      text-align: center;
+      padding: 1em;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Girl Math: Financial Literacy for Girls</h1>
+    <p>Money smarts made for Gen Z girls — learn to Save, Sow, Spend & Share!</p>
+  </header>
+
+  <nav>
+    <a href="#4s">4S Method</a>
+    <a href="#study">Study Plan</a>
+    <a href="#assessment">Assessment</a>
+    <a href="#focus-groups">Focus Groups</a>
+  </nav>
+
+  <section id="4s">
+    <h2>Madalynn’s 4S of Financial Literacy</h2>
+    <div class="four-s">
+      <div class="card">
+        <h3>Save</h3>
+        <p>Learn how to build a smart savings habit through real-life stories and goals.</p>
+      </div>
+      <div class="card">
+        <h3>Sow</h3>
+        <p>Discover how to invest early, plant money seeds, and watch them grow!</p>
+      </div>
+      <div class="card">
+        <h3>Spend</h3>
+        <p>Understand smart spending through needs vs wants and budgeting basics.</p>
+      </div>
+      <div class="card">
+        <h3>Share</h3>
+        <p>Explore giving back, community care, and financial empathy.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="study">
+    <h2>Your 4-Step Study Plan</h2>
+    <ol class="study-plan">
+      <li><strong>Step 1:</strong> Watch a fun, story-driven video lesson for each "S"</li>
+      <li><strong>Step 2:</strong> Complete the mini money challenge</li>
+      <li><strong>Step 3:</strong> Reflect and share your money mindset journal</li>
+      <li><strong>Step 4:</strong> Pass the quiz to unlock your “Girl Math” badge!</li>
+    </ol>
+  </section>
+
+  <section id="assessment">
+    <h2>Before & After Knowledge Check</h2>
+    <p>Take this short quiz before and after the course to measure your money glow-up!</p>
+    <ul>
+      <li>How do you start saving on a $10 allowance?</li>
+      <li>What’s the best way to give without going broke?</li>
+      <li>Is investing only for adults?</li>
+      <li>Can you spend and still be smart with money?</li>
+    </ul>
+    <p><em>(Interactive quiz launching soon!)</em></p>
+  </section>
+
+  <section id="focus-groups">
+    <h2>Join a Virtual Focus Group</h2>
+    <p>We're hosting 4 virtual hangouts to test and improve Girl Math. Sign up below!</p>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Your Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="group">Select a Session:</label>
+      <select id="group" name="group" required>
+        <option value="">Choose one...</option>
+        <option value="june1">June 15 @ 4PM EST</option>
+        <option value="june2">June 22 @ 4PM EST</option>
+        <option value="july1">July 6 @ 4PM EST</option>
+        <option value="july2">July 13 @ 4PM EST</option>
+      </select>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Girl Math. All rights reserved. | Created with 💖 for Gen Z girls</p>
+  </footer>
+
+</body>
+</html>
